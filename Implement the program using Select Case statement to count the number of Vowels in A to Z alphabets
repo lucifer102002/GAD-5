@@ -1,0 +1,16 @@
+Module Module1 
+    Sub Main() 
+        Dim str As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+        Dim numberOfVowels As Integer = 0 
+ 
+        For Each c As Char In str 
+            Select Case c 
+                Case "A"c, "E"c, "I"c, "O"c, "U"c 
+                    numberOfVowels = numberOfVowels + 1 
+            End Select 
+        Next 
+ 
+        Console.WriteLine("Number of vowels: " & numberOfVowels) 
+        Console.ReadKey() 
+    End Sub 
+End Module
