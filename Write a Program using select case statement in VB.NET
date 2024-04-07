@@ -1,0 +1,20 @@
+Module Module1 
+Sub Main() 
+Dim grade As String 
+Console.WriteLine("Enter Your grade") 
+grade = Console.ReadLine() 
+Select Case grade 
+Case "A" 
+Console.WriteLine("High Distinction") 
+Case "A-" 
+Console.WriteLine("Distinction") 
+Case "B" 
+Console.WriteLine("Credit") 
+Case "C" 
+Console.WriteLine("Pass") 
+Case Else 
+Console.WriteLine("Fail") 
+End Select 
+Console.ReadLine() 
+End Sub 
+End Module
